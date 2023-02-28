@@ -2,6 +2,7 @@ config.php
 debuglogs
 sql_dumps
 templates_c
+vendor
 App/Configs/*
 .env
 *.env
