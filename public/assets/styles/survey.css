@@ -1,0 +1,47 @@
+#form_container > :first-child { margin-top: 0; }
+#form_container > :last-child { margin-bottom: 0; }
+
+@media (min-width: 48em) {
+	.pure-g.headly [class*="pure-u"] {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+}
+
+h4 {
+	color: #0f81b2;
+	font-weight: 400;
+}
+
+/* Clears floats for audio buttons: */
+.contains-audio {
+	padding: 5px;
+	overflow: hidden;
+}
+.special-size { font-size: 24px; }
+
+#healthsurvey {
+	background: #fff;
+	padding: 20px;
+	width: 100%;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	-moz-box-flex: 1;
+	flex: 1;
+}
+#healthsurvey > div {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+#healthsurvey > div > footer {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.munch {
+	margin-bottom: 5px;
+}
+.munch span {
+	display: inline-block;
+	padding: 3px;
+}

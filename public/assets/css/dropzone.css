@@ -1,0 +1,20 @@
+.dropzone {
+	font-weight: bold;
+	text-align: center;
+	padding: 1em;
+	margin: 1em;
+	color: #555;
+	border: 2px dashed #555;
+	background-color: #fff;
+	border-radius: 7px;
+	cursor: default;
+}
+
+.ddHover {
+	border-color:red;
+	background-color: #ff0;
+}
+
+#imageHolder img {
+	margin: 10px;
+}

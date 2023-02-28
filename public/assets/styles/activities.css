@@ -1,0 +1,80 @@
+#activities::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#activities .nutshell {
+	border: 1px solid #ddd;
+	background: #eee;
+	padding: 5px;
+}
+#activities .nutshell li {
+	width: 100%;
+}
+#activities .nutshell li a {
+	font-size: 16px;
+	border-width: 1px 0 1px 1px;
+	border-style: solid;
+	border-color: #eee;
+	border-radius: 5px;
+	padding: 5px;
+}
+#activities .nutshell li a:active,
+#activities .nutshell li a.nutshell-selected,
+#activities .nutshell li a.nutshell-selected:hover {
+	color: #0f81b2;
+	border-color: #ddd;
+	background: #fff;
+}
+#activities .nutshell-panels .panel {
+	border: 0;
+	box-shadow: none;
+	padding: 0;
+}
+#activities .nutshell-panels .panel-head {
+	font-size: 28px;
+	font-weight: normal;
+	color: #0f81b2;
+	margin: 10px 0;
+}
+#activities .actions {
+	margin: -2px 0 0 -2px;
+}
+#activities .actions a {
+	margin: 2px 0 0 2px;
+}
+#activities table {
+	font-size: 16px;
+}
+@media (min-width: 720px) {
+	#activities .nutshell {
+		float: left;
+		width: 20%;
+	}
+	#activities .nutshell-panels {
+		margin-left: 22%;
+	}
+	#activities .nutshell li + li {
+		margin-top: 10px;
+	}
+	#activities .nutshell li a {
+		border-radius: 5px 0 0 5px;
+		padding: 10px 15px;
+	}
+	#activities .nutshell li a:active,
+	#activities .nutshell li a.nutshell-selected,
+	#activities .nutshell li a.nutshell-selected:hover {
+		margin-right: -6px;
+		position: relative;
+		z-index: 2;
+	}
+	#activities .nutshell li a:hover {
+		color: #000;
+		background: #ddd;
+		margin-right: -6px;
+	}
+	#activities .nutshell-panels .panel-head {
+		margin-top: 0;
+	}
+}

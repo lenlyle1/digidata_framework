@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000">
+  <defs>
+    <style>
+      .foreground {
+        fill: #fff;
+      }
+      .background {
+        fill: #d67f04;
+      }
+    </style>
+  </defs>
+  <title>warn</title>
+  <g>
+    <path class="background" d="M22.67367,1692.82574,810.17561,117.34456c78.206-156.45941,301.44277-156.45941,379.64878,0l787.50194,1575.48119C2047.87037,1833.95657,1945.26056,2000,1787.50194,2000H212.49806C54.73944,2000-47.87037,1833.95657,22.67367,1692.82574Z"/>
+    <g>
+      <polygon class="foreground" points="870.275 1356.275 1129.725 1356.276 1179.725 534.276 820.275 534.275 870.275 1356.275"/>
+      <rect class="foreground" x="870.27543" y="1506.2755" width="259.44914" height="259.449" transform="translate(2000 3272) rotate(-180)"/>
+    </g>
+  </g>
+</svg>

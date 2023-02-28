@@ -1,0 +1,8 @@
+<?php
+
+namespace Models;
+
+Class [CLASS_NAME] extends \Lib\Database\Mysql\ORM\ORM
+{
+    public $table = '[TABLE_NAME]';
+}

@@ -1,0 +1,22 @@
+.color-red { color: #c9302c; }
+.color-green { color: #5cb85c; }
+.color-orange { color: #d67f04; }
+.color-yellow { color: #d67f04 }
+.color-blue { border-color: #0f81b2; }
+.color-light-blue { border-color: #3ebcd9; }
+
+.border-red { border-color: #c9302c; }
+.border-green { border-color: #5cb85c; }
+.border-orange { border-color: #d67f04 }
+.border-blue { border-color: #0f81b2; }
+.border-light-blue { border-color: #3ebcd9; }
+
+.background-red { background-color: #c9302c; }
+.background-green { background-color: #5cb85c; }
+.background-orange { background-color: #d67f04 }
+.background-blue { background-color: #0f81b2; }
+.background-light-blue { background-color: #3ebcd9; }
+
+.g_text { color: #5cb85c; }
+.y_text { color: #d67f04; }
+.r_text { color: #c9302c; }

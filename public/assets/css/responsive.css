@@ -1,0 +1,60 @@
+
+
+@media screen and (min-width:1600px){
+	.contentHolder {
+		width: 960px;
+	}
+	.form-item {
+		width: 100%;
+	}
+	.signupHolder {
+		width: 50%;
+		margin: auto;
+	}
+
+} // browser
+
+@media screen and (min-width:1200px){
+	.contentHolder {
+		width: 960px;
+	}
+	.form-item {
+		width: 100%;
+	}
+} // browser
+
+@media screen and (min-width:1024px){
+	.contentHolder {
+		width: 960px;
+	}
+	.form-item {
+		width: 100%;
+	}
+} // browser, ipad landscape
+
+@media screen and (min-width:768px){
+	.contentHolder {
+		width: 750px;
+	}
+	.form-item {
+		width: 50%;
+	}
+} // ipad portrait
+
+@media screen and (min-width:480px){
+	.contentHolder {
+		width: 460px;
+	}
+	.form-item {
+		width: 50%;
+	}
+} // mobile landscape
+
+@media screen and (min-width:320px){
+	.contentHolder {
+		width: 300px;
+	}
+	.form-item {
+		width: auto;
+	}
+} 

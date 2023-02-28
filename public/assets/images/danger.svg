@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000">
+  <defs>
+    <style>
+      .foreground {
+        fill: #fff;
+      }
+      .background {
+        fill: #c9302c;
+      }
+    </style>
+  </defs>
+  <title>danger</title>
+  <g>
+    <rect class="background" width="2000" height="2000" rx="200" ry="200"/>
+    <g>
+      <rect class="foreground" x="820.27543" y="284" width="359.44914" height="1432" transform="translate(1000 -414.21356) rotate(45)"/>
+      <rect class="foreground" x="820.27543" y="284" width="359.44914" height="1432" transform="translate(2414.21356 1000) rotate(135)"/>
+    </g>
+  </g>
+</svg>

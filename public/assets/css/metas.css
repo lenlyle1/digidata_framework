@@ -1,0 +1,23 @@
+ul.metas {
+	list-style: none;
+}
+
+ul.metas li {
+	float: left;
+	width: 200px;
+	padding: 5px;
+	border: 1px dotted #aaa;
+	background-color: #ddd;
+	margin: 5px;
+}
+
+ul.metas input[type=checkbox] {
+	border: 2px solid #000;
+}
+
+ul.metasList li {
+	float: none;
+	display: inline-block;
+	width: 95%;
+	height: auto;
+}

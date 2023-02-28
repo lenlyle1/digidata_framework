@@ -1,0 +1,179 @@
+.split > * :first-child {
+	margin-top: 0;
+}
+.split > * :last-child {
+	margin-bottom: 0;
+}
+@media (min-width: 80em) {
+	.split::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	.split {
+		position: relative;
+	}
+	.split > * {
+		text-align: center;
+		width: 100%;
+		position: absolute;
+		z-index: 1;
+	}
+	.split > .left,
+	.split > .right {
+		width: auto;
+		position: relative;
+		z-index: 2;
+	}
+	.split > .left {
+		text-align: left;
+		float: left;
+	}
+	.split > .right {
+		text-align: right;
+		float: right;
+	}
+	.split > * {
+		margin: 0;
+	}
+}
+
+.shifter {
+	margin-top: 10px;
+}
+.shifter::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.shifter > * {
+	width: 100%;
+	display: block;
+}
+.shifter > * {
+	margin-top: 5px;
+}
+@media (min-width: 48em) {
+	.shifter > * {
+		margin: 0;
+		width: auto;
+		float: right;
+	}
+	.shifter > * {
+		margin-left: 10px;
+	}
+}
+
+/* https://github.com/dbushell/Pikaday */
+.pika-label:after {
+	font-size: 8px;
+	padding: 3px;
+	content: '▼';
+	opacity: 0.4;
+}
+.pika-label:hover:after { opacity: 1; }
+
+.iconic {
+	display: inline-block;
+	height: 20px;
+}
+
+.audio {
+	text-align: center;
+	float: right;
+	-webkit-border-radius: 40px;
+	   -moz-border-radius: 40px;
+	        border-radius: 40px;
+	width: 40px;
+	height: 40px;
+	background: #0c8f8f;
+	margin-left: 10px;
+	cursor: pointer;
+	cursor: hand;
+	position: relative;
+}
+.audio::before {
+	content: "\f026";
+	font-family: FontAwesome;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.audio.audio-play::before { content: "\f028"; }
+.audio-playing {
+	-webkit-box-shadow: 0 0 5px 1px #0c8f8f;
+	-moz-box-shadow: 0 0 5px 1px #0c8f8f;
+	box-shadow: 0 0 5px 1px #0c8f8f;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px
+}
+
+.user-links {
+	width: 100%;
+	text-align: right;
+	margin-bottom: 10px;
+	margin-top: -18px;
+}
+
+.highlight {
+	-webkit-box-shadow: inset 0 0 0 5px #ffad08 !important;
+	-moz-box-shadow: inset 0 0 0 5px #ffad08 !important;
+	box-shadow: inset 0 0 0 5px #ffad08 !important;
+	z-index: 1000;
+}
+
+#speaker_symbol_highlight {
+	display: inline-block;
+	padding: 5px 10px;
+}
+
+.squash {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.lang-error {
+	display: inline-block;
+	background-color: #f00;
+}
+
+.flash-text {
+	padding: 5px 10px;
+	background-color: #3e87c4;
+	color: white;
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	z-index: 1000000;
+}
+
+.nav_sub_selected {
+	text-decoration: underline
+}
+
+.p_display {
+	display: block;
+}

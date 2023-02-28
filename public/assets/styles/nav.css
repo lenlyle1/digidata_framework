@@ -1,0 +1,127 @@
+/* I don't think this file is used anymore. */
+
+#nav {
+	background: #fff;
+	margin-bottom: 20px;
+	border: 1px solid #355a66;
+	margin-top: -1px;
+	display: none;
+}
+#nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+#nav ul::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+#nav li {
+	color: #355a66;
+	letter-spacing: .05em;
+	font-size: 18px;
+	line-height: 1;
+	width: 100%;
+	float: left;
+	display: inline;
+}
+#nav li:first-child {
+	float: right;
+}
+#nav a {
+	display: block;
+	padding: 10px 10px 11px;
+	position: relative;
+	border-bottom: 1px solid #355a66;
+	margin-bottom: -1px;
+}
+#nav a,
+#nav a:visited {
+	color: #1bb0ce;
+	text-decoration: none;
+}
+#nav a:visited:hover,
+#nav a:focus,
+#nav a:focus:hover,
+#nav a:hover,
+#nav a:active {
+	color: #355a66;
+	text-decoration: none;
+	background: #d1eff5;
+}
+#nav a.selected,
+#nav a.selected:visited:hover,
+#nav a.selected:focus,
+#nav a.selected:focus:hover,
+#nav a.selected:hover,
+#nav a.selected:active {
+	color: #fff;
+	text-decoration: none;
+	background: #355a66;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+}
+@media (min-width: 48em) {
+	#nav {
+		border: 0;
+		border-top: 5px solid #355a66;
+		-webkit-box-shadow: 0 -5px 0 #cadae0 inset;
+		box-shadow: 0 -5px 0 #cadae0 inset;
+		margin-top: -5px;
+		display: block !important;
+	}
+	#nav li {
+		width: auto;
+	}
+	#nav a {
+		padding-bottom: 15px;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		border: 0;
+	}
+	#nav a:visited:hover,
+	#nav a:focus,
+	#nav a:focus:hover,
+	#nav a:hover,
+	#nav a:active {
+		-webkit-box-shadow: 0 -5px 0 #1bb0ce inset;
+		box-shadow: 0 -5px 0 #1bb0ce inset;
+	}
+}
+
+.toggle {
+	color: #fff;
+	font-size: 20px;
+	background: transparent;
+	width: 50px;
+	height: 50px;
+	display: block;
+	cursor: pointer;
+	cursor: hand;
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.toggle::after {
+	content: "\f0c9";
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.toggle.opened::after { content: "\f00d"; }
+@media (min-width: 48rem) {
+	.toggle {
+		display: none;
+	}
+}

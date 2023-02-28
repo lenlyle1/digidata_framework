@@ -1,0 +1,47 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+.contentHolder{
+    margin-right: auto;
+    margin-left: auto;
+    clear:both;
+}
+.main-body {
+	min-height: 400px;
+}
+div {
+	display: block;
+}
+.container {
+	padding-right: 15px;
+    padding-left: 15px;v
+}
+.row { 
+	margin-right: 1rem;
+    margin-left: 1rem;
+    overflow:auto; 
+    position: relative;
+    min-height: 33px;
+}
+.link-row {
+	display: inline-block;
+	width: 90%;
+}
+.search-results {
+	width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.center{
+	text-align: center;
+}
+.left {
+	display: inline-block;
+	float: left;
+}
+.right {
+
+	float: right;
+	display: inline-block;
+}

@@ -1,0 +1,60 @@
+
+.error {
+	color: #f00;    
+}
+form .error{
+	font-size: 12px;
+    font-weight: 400;
+}
+.formError {
+	border: 1px solid #f00 !important;
+}
+.formErrText{
+	font-size: 12px;
+	color: blue;
+}
+.hidden {
+	display: none !important;
+}
+
+.btn {
+	display: inline-block;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: .5em;
+	margin: 0px;
+	color: #fff;
+	text-decoration: none;
+}
+.btn-red{
+	background-color: #f00;
+	color: #fff;
+}
+.btn-blue{
+	background-color: #123652;
+	color: #fff;
+}
+.btn-row {
+	padding: 0 .5em;
+	display: inline-block;
+	border-radius: 3px;
+	cursor: pointer;
+	margin: 0 5px;
+	text-decoration: none;
+}
+.bold {
+	font-weight: bold;
+}
+
+.link-row {
+	cursor: pointer;
+	border-bottom: 1px dotted #aaa;
+	padding: 5px;
+}
+.link-row:hover {
+	background-color: #eee;
+}
+.link-row a {	
+	display: block;
+	text-decoration: none;
+}

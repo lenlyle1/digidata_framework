@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000">
+  <defs>
+    <style>
+      .foreground {
+        fill: #fff;
+      }
+      .background {
+        fill: #5cb85c;
+      }
+    </style>
+  </defs>
+  <title>good</title>
+  <g>
+    <rect class="background" width="2000" height="2000" rx="200" ry="200"/>
+    <g>
+      <rect class="foreground" x="968.46849" y="343.04107" width="359.44914" height="1313.91786" transform="translate(1043.40474 -519.00188) rotate(45)"/>
+      <rect class="foreground" x="482.81978" y="799.96137" width="359.44914" height="778.60243" transform="translate(-646.88089 816.81655) rotate(-45)"/>
+    </g>
+    <path class="foreground" d="M453.91881,489.18471"/>
+  </g>
+</svg>

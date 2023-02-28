@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+	-webkit-box-sizing: border-box;
+	-khtml-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+::-moz-selection {
+	background: rgba(15, 129, 178, 0.55);
+	text-shadow: none;
+}
+::selection {
+	background: rgba(15, 129, 178, 0.55);
+	text-shadow: none;
+}
+
+html {
+	background-color: #405059;
+}
+
+body {
+	font: 400 16px/1.4 "Noto Sans", Arial, sans-serif;
+	color: #405059;
+}
+
+/* https://purecss.io/grids/#using-grids-with-custom-fonts */
+html, button, input, select, textarea,
+.pure-g [class*="pure-u"] {
+	font-family: "Noto Sans", Arial, sans-serif;
+}
+
+img {
+	display: block;
+}
+
+p {
+	margin: 20px 0;
+}
+
+a,
+a:visited {
+	color: #0c8f8f;
+	text-decoration: none;
+}
+a:visited:hover,
+a:focus,
+a:focus:hover,
+a:hover,
+a:active {
+	color: #0f81b2;
+	text-decoration: underline;
+}

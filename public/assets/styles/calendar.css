@@ -1,0 +1,29 @@
+.calendar thead th {
+	font-weight: normal;
+	letter-spacing: 0.05em;
+	color: #fff;
+	background: #0f81b2;
+}
+
+.calendar.pure-table,
+.calendar.pure-table-bordered td,
+.calendar.pure-table-bordered th {
+	border: 2px solid #0f81b2;
+}
+
+.calendar td {
+	position: relative;
+	height: 100px;
+}
+.calendar .date_string,
+.calendar .month_string {
+	position: absolute;
+	left: 10px;
+}
+.calendar .date_string {
+	top: 10px;
+}
+.calendar .month_string {
+	right: 0;
+	bottom: 10px;
+}

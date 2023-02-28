@@ -1,0 +1,98 @@
+#riskgraph{
+	position:absolute;
+	width:150px;
+	left:60px;
+	border-bottom:5px solid #4f8699;
+	border-left:5px solid #4f8699;
+    
+}
+
+.riskchart{
+    position:relative;
+    height:550px;
+    width:50px;
+    float:left;
+    margin:10px;
+    border:1px solid #4f8699;
+}
+
+.riskgradient{
+    position:absolute;
+    z-index:1;
+    height:100%;
+    width:100%;
+    xborder:1px solid #4f8699;
+}
+
+.riskmeter{
+    position:absolute;
+    z-index:2;
+    color:white;
+    top:0%;
+    width: 100%;
+    border-bottom:1px solid #4f8699;
+    
+}
+
+
+#result {
+	
+	max-width:900px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	min-height:800px;
+	padding-top:10px;
+	
+}
+
+.result-box {
+	
+	position:relative;
+	float:right;
+	border: 2px solid #4f8699;
+	padding:10px;
+	width:550px;
+	background:#cadae0;
+	margin-top:15px;
+	
+}
+
+.result-box h3 {
+	
+	margin:20px 0 0 0;
+	padding:0;
+	
+	
+}
+
+
+
+.result-box ul {
+	
+	margin:10px 0 10px 0;
+	xpadding:0;
+	list-style-type:none;
+	padding-inline-start: 10px;
+	
+}
+
+.result-box li{
+	
+	padding:0;
+	
+}
+
+.riskverbage {
+	
+	margin:0;
+	
+}
+
+.results-checkbox {
+	
+	height:18px;
+	margin-right:10px;
+	
+}

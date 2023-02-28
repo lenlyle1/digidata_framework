@@ -1,0 +1,47 @@
+.save_goal + button { margin-left: 10px; }
+.selected_areas {font-weight: bold;}
+
+.action_plan_moti_container{
+    border-style:solid;
+    border-color: #cc605a;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+a.moti_display {
+    /* left:50%; */
+    position:relative;
+}
+
+.action_plan_moti_container input,
+.action_plan_moti_container select,
+.action_plan_moti_container textarea {
+    max-width: none !important;
+    width: 100% !important;
+}
+.action_plan_moti_container span {
+    display: block;
+    margin-bottom: 3px;
+}
+
+.moti_selectors select {
+    width: auto !important;
+}
+
+.moti_counter_header {
+    font-size: smaller;
+    text-align: right;
+}
+.moti_counter_header * {
+    display: inline !important;
+}
+
+.moti_flow_control {
+    text-align: center;
+    margin-top: 30px !important;
+}
+.moti_flow_control > .button {
+    width: 100%;
+    max-width: 33.3333333333333%;
+}

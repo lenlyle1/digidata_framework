@@ -1,0 +1,7 @@
+config.php
+debuglogs
+sql_dumps
+templates_c
+App/Configs/*
+.env
+*.env

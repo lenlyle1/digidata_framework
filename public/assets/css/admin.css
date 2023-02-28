@@ -1,0 +1,114 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #718EA4;
+}
+header {
+	height: 70px;
+	width: 100%;
+	margin: 0px;
+	background-color: #042037;
+	border-bottom: 1px solid #000;
+}
+h1 {
+	margin: 0px;
+	padding-top: 10px;
+	border-bottom: 2px solid #718EA4;
+	color: 803415;
+	font-family: 'Montserrat', sans-serif;
+}
+.contentHolder {
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+}
+.hori-menu {
+	float: left;
+	display: inline;
+	list-style: none;
+}
+
+.hori-menu li {
+	float: left;
+	border: 1px solid #806515;
+	padding: 5px;
+	background-color: #123652;
+	color: #fff;
+	margin-right: 5px;
+	border-radius: 5px;
+}
+
+.hori-menu li a {
+	color: #fff;
+}
+.hori-menu li a:visited {
+	color: #fff;
+}
+
+.hori-menu li:hover {
+	background-color: #29506D;
+}
+.logo {
+	margin: 0 10px 10px 10px;
+	width: 200px;
+	height: 50px;
+	color: #fff;
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 4rem;
+	line-height: 3rem;
+    text-transform: uppercase;
+}
+#logo-heart {
+	width: 55px;
+}
+a {
+	color: #AA8E39;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+.even {
+	background-color: #eee;
+}
+.left {
+	display: inline-block;
+}
+.list-row {
+	border-bottom: 1px solid #ddd;
+}
+.v-center {
+  position: absolute;
+	display: inline-block;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.rolename{
+	color: #718EA4;
+}
+
+footer {
+	margin-top: 50px;
+	height: 100px;
+	text-align: center;
+}
+footer .contentHolder{
+	padding-top: 5px;
+}
+.swatch {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+}
+
+.signupHolderAdmin {
+	border-radius: 10px;
+	border: 1px solid #ccc;
+	background-color: #eee;
+	margin-bottom: 10px;
+	padding: 10px;
+	width: 90%;
+	margin: auto;
+	margin-top: 10px;
+}

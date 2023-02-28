@@ -1,0 +1,499 @@
+/* Quote: */
+blockquote {
+	position: relative;
+}
+blockquote > p {
+	padding-left: 50px;
+}
+blockquote > p:first-child::before,
+blockquote > p:first-child::after {
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: rgba(12, 143, 143, 0.5);
+	line-height: 1;
+	position: absolute;
+	z-index: 2;
+}
+blockquote > p:first-child::before {
+	top: -0.5em;
+	left: 0;
+	content: "\f10d";
+}
+blockquote > footer {
+	font-size: smaller;
+	margin-left: 60px;
+}
+
+/**
+ * The `<hr>` element represents a paragraph-level thematic break. It
+ * separates different topics within a section of prose, or between scenes
+ * in a novel.
+ *
+ * @see https://gist.github.com/4277585
+ * @see https://github.com/h5bp/html5-boilerplate/blob/b378ce239dfb017e32fbeacc5ab0346258b089e2/css/main.css#L42-L53
+ * @see https://github.com/twitter/bootstrap/blob/070c125ceceb2a164773f51226950350445160ee/docs/assets/css/bootstrap.css#L876-L881
+ * @see http://dev.w3.org/html5/spec/Overview.html#the-hr-element-0
+ */
+
+hr, .hr, .hr1, .hr2, .hr3, .hr4, .hr5, .hr6 {
+	border: 0;
+	background: #0f81b2;
+	height: 1px;
+	margin: 10px 0;
+	padding: 0;
+}
+.hr1 {
+	height: 2px; /* 2px */
+}
+.hr2 {
+	height: 4px; /* 4px */
+}
+.hr3 {
+	height: 8px; /* 8px */
+}
+.hr4 {
+	height: 10px; /* 10px */
+}
+.hr5 {
+	height: 12px; /* 12px */
+}
+.hr6 {
+	height: 14px; /* 14px */
+}
+
+.checker {
+	border: 2px solid #8e8e8e;
+	min-height: 60px;
+	-webkit-border-radius: 10px 0 0 10px;
+	-moz-border-radius: 10px 0 0 10px;
+	border-radius: 10px 0 0 10px;
+	padding: 10px;
+	padding-left: 65px;
+	background: -webkit-linear-gradient(
+		left,
+		#8e8e8e 50px,
+		#fff 50px
+	);
+	background: -moz-linear-gradient(
+		left,
+		#8e8e8e 50px,
+		#fff 50px
+	);
+	background: -o-linear-gradient(
+		left,
+		#8e8e8e 50px,
+		#fff 50px
+	);
+	background: linear-gradient(
+		to right,
+		#8e8e8e 50px,
+		#fff 50px
+	);
+	position: relative;
+	cursor: pointer;
+	cursor: hand;
+}
+.checker + .checker {
+	margin-top: 10px;
+}
+.checker::before {
+	content: '\f10c';
+	font-family: FontAwesome;
+	font-size: 30px;
+	text-align: center;
+	color: #fff;
+	width: 50px;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.checker.checker-checked {
+	border-color: #73b06f;
+	background: -webkit-linear-gradient(
+		left,
+		#73b06f 50px,
+		#fff 50px
+	);
+	background: -moz-linear-gradient(
+		left,
+		#73b06f 50px,
+		#fff 50px
+	);
+	background: -o-linear-gradient(
+		left,
+		#73b06f 50px,
+		#fff 50px
+	);
+	background: linear-gradient(
+		to right,
+		#73b06f 50px,
+		#fff 50px
+	);
+}
+.checker.checker-checked::before {
+	content: '\f058';
+}
+
+.boxers {
+	margin: 10px 0 0;
+}
+.boxers-wrap {
+	margin-top: -10px;
+	margin-left: -10px;
+}
+.boxers-wrap::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.boxers-box {
+	border: 6px solid #8e8e8e;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding: 10px;
+	cursor: pointer;
+	cursor: hand;
+	float: left;
+	position: relative;
+	-webkit-transition: background 100ms linear;
+	-webkit-transition: all 100ms linear;
+	-o-transition: all 100ms linear;
+	-moz-transition: all 100ms linear;
+	transition: all 100ms linear;
+	overflow: hidden;
+}
+.borders-box-selected,
+.borders-box-selected:active,
+.borders-box-selected:hover,
+.boxers-box:hover {
+	background: #e1f4fd;
+}
+.boxers-box p {
+	font-family: Lato, sans-serif;
+	font-size: 16px;
+	line-height: 1.25;
+	text-align: center;
+	margin: 0;
+	padding: 0 10px;
+}
+
+.board {
+	line-height: 1.25;
+	margin: 20px 0;
+	padding: 20px;
+}
+.board a,
+.board a:visited {
+	color: #337ab7;
+	text-decoration: none;
+}
+.board a:visited:hover,
+.board a:focus,
+.board a:focus:hover,
+.board a:hover,
+.board a:active {
+	text-decoration: none;
+}
+.board h3 {
+	font-size: 28px;
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+.board h3 span {
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+.board p {
+	margin: 5px 0 0;
+	padding: 0 30px;
+}
+.board-row {
+	max-width: 600px;
+	margin: 0 auto;
+}
+.board-col {
+	text-align: center;
+	margin: -1px -1px 0 0;
+	padding: 5px !important;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-moz-box-orient: vertical;
+	-moz-box-direction: normal;
+	flex-direction: column;
+}
+.board-wrap {
+	padding: 20px 10px 40px;
+	min-height: 200px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	-moz-box-flex: 1;
+	flex: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-moz-box-orient: vertical;
+	-moz-box-direction: normal;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-moz-box-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-moz-box-pack: center;
+	justify-content: center;
+}
+.board-wrap {
+	border: 10px solid #0080b1;
+}
+.board-wrap:hover {
+	background: rgba(0, 128, 177, 0.15);
+}
+#actionplan .board-wrap {
+	border: 10px solid #aac56c;
+}
+#actionplan .board-wrap:hover {
+	background: rgba(170, 197, 108, 0.15);
+}
+#activities .board-wrap {
+	border: 10px solid #cc605a;
+}
+#activities .board-wrap:hover {
+	background: rgba(204, 96, 90, 0.15);
+}
+#health-tips .board-wrap {
+	border: 10px solid #9279b0;
+}
+#health-tips .board-wrap:hover {
+	background: rgba(146, 121, 176, 0.15);
+}
+@media (min-width: 48em) {
+	.board {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -moz-box;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		-moz-box-orient: vertical;
+		-moz-box-direction: normal;
+		flex-direction: column;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		-moz-box-align: center;
+		align-items: center;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		-moz-box-pack: center;
+		justify-content: center;
+	}
+}
+@media (max-height: 78.999999999999em) {
+	.board {
+		position: relative;
+	}
+}
+
+.mega {
+	background: #fff;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	-moz-box-flex: 1;
+	flex: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-moz-box-orient: vertical;
+	-moz-box-direction: normal;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-moz-box-pack: center;
+	justify-content: center;
+}
+.mega .pure-g [class*="pure-u"] {
+	padding: 30px;
+}
+.mega .mega-wrapper {
+	width: 100%;
+	max-width: 1280px;
+	padding: 60px 20px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 2;
+}
+.mega .mega-primary {
+	text-align: center;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-moz-box-orient: vertical;
+	-moz-box-direction: normal;
+	flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-moz-box-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-moz-box-pack: center;
+	justify-content: center;
+}
+.mega .mega-secondary {
+	border-width: 4px 0;
+	border-style: solid;
+	border-color: #267074;
+	background: rgba(255, 255, 255, 0.95);
+	padding: 40px;
+	-webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+}
+.mega img {
+	max-width: 250px;
+	margin: 0 auto 20px;
+	display: block;
+}
+.mega label {
+	color: #405059;
+	text-transform: uppercase;
+	letter-spacing: 0.025em;
+	font-size: smaller;
+	margin-bottom: 5px;
+	display: block;
+}
+.mega input + label {
+	margin-top: 10px;
+}
+.mega input + input {
+	margin-top: 10px;
+}
+.mega .pure-button {
+	margin-top: 10px;
+}
+
+.squares .square {
+	border: 10px solid transparent;
+	min-height: 200px;
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+.squares .square a {
+	font-size: 24px;
+	font-weight: 200;
+	line-height: 1.2;
+	text-align: center;
+	text-shadow: 0 2px 2px #fff;
+	border: 5px solid #0080b1;
+	padding: 10px;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.squares .square a,
+.squares .square a:visited,
+.squares .square a:visited:hover,
+.squares .square a:focus,
+.squares .square a:focus:hover,
+.squares .square a:hover,
+.squares .square a:active {
+	color: #000;
+	text-decoration: none;
+}
+.squares .square span {
+	width: 100%;
+	padding: 80px 10px 10px;
+	position: absolute;
+	z-index: 10;
+	left: 0;
+	bottom: 0;
+	background: #fff;
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #fff), color-stop(30%, rgba(255, 255, 255, .9)), to(rgba(255, 255, 255, 0)));
+	background: -webkit-linear-gradient(bottom, #fff 0, rgba(255, 255, 255, .9) 30%, rgba(255, 255, 255, 0) 100%);
+	background: -moz-linear-gradient(bottom, #fff 0, rgba(255, 255, 255, .9) 30%, rgba(255, 255, 255, 0) 100%);
+	background: -o-linear-gradient(bottom, #fff 0, rgba(255, 255, 255, .9) 30%, rgba(255, 255, 255, 0) 100%);
+	background: linear-gradient(to top, #fff 0, rgba(255, 255, 255, .9) 30%, rgba(255, 255, 255, 0) 100%);
+}
+
+.squares .square a {
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.squares .square a.square-blank {
+	font-size: 30px;
+	font-weight: 400;
+	border: 10px solid #0080b1;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+.squares .square a.square-blank:hover {
+	background: rgba(0, 128, 177, 0.15);
+}
+.squares .square a.square-blank span {
+	background: none;
+	padding: 0 20px;
+	bottom: auto;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+@media (min-width: 48em) {
+	.squares {
+		text-align: center;
+	}
+	.squares .square {
+		width: 300px;
+		height: 300px;
+		display: inline-block;
+	}
+}

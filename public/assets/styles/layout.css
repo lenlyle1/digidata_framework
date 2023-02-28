@@ -1,0 +1,241 @@
+html,
+body {
+	overflow-x: hidden;
+}
+html {
+	height: 100%;
+	overflow-y: auto;
+}
+body {
+	min-height: 100%;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	flex-direction: column;
+}
+
+@media (min-width: 48em) {
+	.pure-g [class*="pure-u"] {
+		padding: 10px;
+	}
+	.pure-g [class*="pure-u"]:first-child {
+		padding-left: 0;
+	}
+	.pure-g [class*="pure-u"]:last-child {
+		padding-right: 0;
+	}
+	.pure-g [class*="pure-u"] > :first-child {
+		margin-top: 0;
+	}
+	.pure-g [class*="pure-u"] > :last-child {
+		margin-bottom: 0;
+	}
+}
+
+.container {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.wrap {
+	padding: 0 20px;
+}
+
+#top {
+	position: relative;
+	z-index: 10;
+}
+.bgphotos #top {
+	z-index: 10;
+}
+
+#middle {
+	background: #eee;
+	padding: 65px 20px 30px;
+	width: 100%;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	flex-direction: column;
+	-webkit-box-flex: 1;
+	flex: 1;
+}
+#page {
+	background: #fff;
+	padding: 20px;
+	width: 100%;
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .25);
+	box-shadow: 0 0 5px rgba(0, 0, 0, .25);
+	border-radius: 5px;
+	-webkit-box-flex: 1;
+	flex: 1;
+	position: relative;
+	/* z-index: 30; */
+}
+#page > :first-child {
+	margin-top: 0;
+}
+#page > :last-child {
+	margin-bottom: 0;
+}
+
+#bottom {
+	font-size: 14px;
+	border-top: 2px solid #267074;
+	background: #0c8f8f;
+}
+
+#shortcuts {
+	text-align: center;
+	letter-spacing: 0.025em;
+	padding: 10px 20px;
+}
+#shortcuts ul,
+#shortcuts ul li {
+	margin: 0;
+	padding: 0;
+}
+#shortcuts ul li {
+	list-style: none;
+	display: inline-block;
+}
+#shortcuts ul li + li {
+	margin-left: 10px;
+}
+#shortcuts a,
+#shortcuts a:visited,
+#shortcuts a:visited:hover,
+#shortcuts a:focus,
+#shortcuts a:focus:hover,
+#shortcuts a:hover,
+#shortcuts a:active {
+	color: #fff;
+}
+
+@media (min-width: 80em) {
+	#shortcuts {
+		text-align: left;
+	}
+	#shortcuts ul {
+		overflow: hidden;
+	}
+	#shortcuts ul li {
+		list-style: none;
+		margin-right: 20px;
+		float: left;
+	}
+	#shortcuts ul li:last-child {
+		float: right;
+		margin-right: 0;
+		margin-left: 20px;
+	}
+}
+
+
+#meta {
+	background: #405059;
+	padding: 0 20px;
+}
+#meta p {
+	font-size: 10px;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+	text-align: center;
+	color: #fff;
+	color: rgba(255, 255, 255, 0.2);
+	margin: 0;
+	padding: 10px 0;
+}
+
+@media (min-width: 80em) {
+	#meta p {
+		text-align: right;
+	}
+}
+
+.cover::after {
+	content: '';
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(255, 255, 255, .8);
+	z-index: 20;
+}
+
+/*
+Best for photos with captions to right or left:
+<div class="bunch bunch-[right|left]">
+	<(any element)>
+	<(any element)>
+</div>
+*/
+
+.bunch {
+	margin: 20px 0;
+}
+.bunch::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.bunch > * > :first-child {
+	margin-top: 0;
+}
+.bunch > * > :last-child {
+	margin-bottom: 0;
+}
+@media (min-width: 48em) {
+	.bunch.bunch-left > :first-child {
+		margin-right: 40px;
+	}
+	.bunch.bunch-right > :first-child {
+		margin-left: 40px;
+	}
+	.bunch.bunch-left > :first-child {
+		margin: 0 20px 0 0;
+		float: left;
+		display: inline;
+	}
+	.bunch.bunch-right > :first-child {
+		margin: 0 0 0 20px;
+		float: right;
+		display: inline;
+	}
+	.bunch > :last-child {
+		margin: 0;
+	}
+	.bunch > :last-child {
+		overflow: auto;
+	}
+}
+
+/*
+Simple two-column:
+<div class="box">
+	<(any element)>
+	<(any element)>
+</div>
+*/
+
+.box {
+	margin: 20px 0;
+}
+@media (min-width: 48em) {
+	.box::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	.box > :first-child {
+		width: 200px;
+		float: right;
+		display: inline;
+	}
+	.box > :last-child {
+		margin-right: 220px;
+	}
+}

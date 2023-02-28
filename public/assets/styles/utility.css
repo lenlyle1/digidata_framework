@@ -1,0 +1,112 @@
+/*
+@see http://www.maxdesign.com.au/2013/03/22/simple-responsive-table/
+@see http://creativeandcode.com/simple-solution-for-responsive-tables/
+@see http://stackoverflow.com/a/10122689/922323
+*/
+
+/*
+<div class="scroll"><img ...></div>
+<div class="scroll"><table></table></div>
+*/
+
+.scroll {
+	width: 100%;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+}
+.scroll img:first-of-type {
+	max-width: none;
+}
+.scroll > *,
+.scroll img:first-of-type {
+	margin-top: 0;
+	margin-bottom: 0;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	transform: translateZ(0);
+}
+.scroll > :first-child {
+	margin-top: 0 !important;
+}
+.scroll > :last-child {
+	margin-bottom: 0 !important;
+}
+
+.off {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+.none {
+	display: none;
+}
+
+.force {
+	margin-top: -1px;
+	margin-bottom: -1px;
+	padding: 1px 0;
+}
+
+.push + .push {
+	margin-top: 10px;
+}
+
+.alone {
+	margin-top: 25px !important;
+}
+
+.hug {
+	padding-left: 20px;
+}
+
+/*
+.tidy > :first-child {
+	margin-top: 0 !important;
+}
+.tidy > :last-child {
+	margin-bottom: 0 !important;
+}
+*/
+
+.kill > :first-child {
+	margin-top: 0 !important;
+}
+.kill > :last-child {
+	margin-bottom: 0 !important;
+}
+
+.clear::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.centered {
+	text-align: center;
+}
+.centered > * {
+	display: inline-block;
+}
+
+.parent {
+	position: relative;
+}
+
+.move {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.hidden_obj {
+	display: none !important;
+}
+
+.spacer {
+	margin: 10px 0;
+}

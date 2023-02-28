@@ -1,0 +1,79 @@
+form {
+	display: block;
+	margin: 0;
+}
+fieldset {
+	border: 0;
+	padding: 5px;
+}
+.form-item label {
+	width: 30%;
+	display: inline-block;
+	float: left;
+	margin-top: 5px;
+}
+.form-item textarea {
+
+}
+.form-item input {
+	display: inline-block;
+	width: 70%;
+	position; absolute;
+	float: left;
+	padding: .5rem;
+	float: left;
+	border:1px solid #ccc;
+	border-radius: 0px;
+}
+.form-item input.small {
+	width: 50%;
+}
+.form-item input.medium {
+	width: 75%;
+}
+.form-item input.large {
+	width: 100%;
+}
+.form-item select {
+	display: inline-block;
+    max-width: 100%;
+    -webkit-appearance: none;
+    padding: .375rem 1.75rem .375rem .75rem;
+    padding-right: .75rem\9;
+    color: #55595c;
+    vertical-align: middle;
+    background: #fff url(/assets/images/site-images/select-icon.png) no-repeat right .75rem center;
+    background-image: none\9;
+    -webkit-background-size: 8px 10px;
+    background-size: 8px 10px;
+    border: 1px solid #ccc;
+    -moz-appearance: none;
+}
+.form-item select option{
+	display: block;
+    white-space: pre;
+    min-height: 2.2em;
+    padding: 0px 2px 1px;
+}
+.form-item textarea {
+	width: 70%;
+	border-radius: 5px;
+	min-height: 60px;
+}
+.form-block {
+	width: 50%;
+}
+
+.inputHolder{
+	float: left;
+	width: 65%;
+}
+
+
+	.signupHolder {
+		border-radius: 10px;
+		border: 1px solid #ccc;
+		background-color: #eee;
+		margin-bottom: 10px;
+		padding: 10px;
+	}

@@ -1,0 +1,22 @@
+#flag {
+	padding: 10px 20px;
+	background: #fff;
+	border-bottom: 2px solid #267074;
+	width: 200px;
+	height: 80px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 1000;
+}
+#flag img,
+#flag svg {
+	margin: 0 auto;
+	display: block;
+	max-height: 90%;
+}
+@media (min-width: 48em) {
+	#flag {
+		width: 300px;
+	}
+}

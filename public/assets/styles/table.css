@@ -1,0 +1,11 @@
+.pure-table { width: 100%; }
+
+.cth-table {
+	margin: 20px 0;
+}
+th.suggestions {
+	width: 40%;
+}
+th.health_area {
+	width: 30%;
+}

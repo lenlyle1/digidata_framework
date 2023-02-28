@@ -1,0 +1,42 @@
+<?php
+
+/**
+ * DATABASE SETTINGS
+ */
+define('DB_HOST', 'localhost');
+define('DB_NAME', 'dating_site');
+define('DB_USER', 'len');
+define('DB_PASSWORD', 'B0ll0cks1');
+define('DB_PORT', 3306);
+
+/**
+ * MEMCACHE SETTINGS
+ */
+define('MEMC_SERVER', '127.0.0.1');
+define('MEMC_PORT', '11211');
+
+/**
+ * SITE DETAILS
+ */
+define('SITENAME', 'Framework Test');
+
+/**
+ * SMARTY DEBUGGING
+ */
+define('SMARTY_DEBUG', false);
+
+/**
+ * JS SETTINGS
+ */
+define('JS_VERSION', 1);
+
+/**
+ * SMTP CONFIG
+ */
+define('SMTP_HOST', 'smtp.office365.com');
+define('SMTP_USERNAME', 'smtp@ieqtechnology.com');
+define('SMTP_PASSWORD', 'm4eWdS1O5hjp');
+define('SMTP_FROM_EMAIL', 'smtp@ieqtechnology.comm');
+define('SMTP_FROM_NAME', 'Connection To Health');
+define('SMTP_REPLY_TO', 'lenlyle@gmail.com');
+define('SMTP_REPLY_TO_NAME', true);

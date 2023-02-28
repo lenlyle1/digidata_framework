@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit colors="true"
+		 bootstrap="phpunit_bootstrap.php"
+	 	 cacheTokens="true">
+    <testsuites>
+        <testsuite name="User Tests">
+            <directory>tests/user/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

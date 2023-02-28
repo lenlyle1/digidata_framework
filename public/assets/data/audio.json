@@ -1,0 +1,1716 @@
+{
+
+    "a1_3_speakersymb": {
+        "elements": [
+            "#speaker_symbol_highlight"
+        ],
+        "points": {
+            "en": [
+                [4.5, 5.2]
+            ],
+            "es": [
+                [3.4, 4.2]
+            ]
+        }
+    },
+
+    "a2_2_healthlit": {
+        "elements": [
+            "#form_confidence_0_highlight",
+            "#form_confidence_1_highlight",
+            "#form_confidence_2_highlight",
+            "#form_confidence_3_highlight",
+            "#form_confidence_4_highlight"
+        ],
+        "points": {
+            "en": [
+                [4.8, 7.00],
+                [7.2, 8.90],
+                [9.1, 10.90],
+                [11.1, 12.80],
+                [13, 0]
+            ],
+            "es": [
+                [6.6, 7.8],
+                [8.8, 10.1],
+                [11.1, 12.1],
+                [13.1, 14.5],
+                [15.5, 0]
+            ]
+        }
+    },
+
+    "a2_3_height": {
+        "elements": [
+            "#highlight_height_feet",
+            "#highlight_height_inches",
+            "#highlight_height_radio_3",
+            "#highlight_height_radio_4",
+            "#highlight_height_radio_5",
+            "#highlight_height_radio_6",
+            "#highlight_height_radio_7",
+            "#highlight_inch_height_radio_0",
+            "#highlight_inch_height_radio_1",
+            "#highlight_inch_height_radio_2",
+            "#highlight_inch_height_radio_3",
+            "#highlight_inch_height_radio_4",
+            "#highlight_inch_height_radio_5",
+            "#highlight_inch_height_radio_6",
+            "#highlight_inch_height_radio_7",
+            "#highlight_inch_height_radio_8",
+            "#highlight_inch_height_radio_9",
+            "#highlight_inch_height_radio_10",
+            "#highlight_inch_height_radio_11"
+        ],
+        "points": {
+            "en": [
+                [5.20, 6.00],
+                [6.20, 7.00],
+                [7.80, 9.10],
+                [9.30, 10.40],
+                [10.60, 11.90],
+                [12.10, 13.40],
+                [13.60, 15.70],
+                [15.90, 16.90],
+                [17.10, 18.40],
+                [18.60, 20.00],
+                [20.20, 21.30],
+                [21.50, 22.80],
+                [23.00, 24.40],
+                [24.60, 25.80],
+                [26.00, 27.50],
+                [27.70, 28.90],
+                [29.10, 30.60],
+                [30.80, 31.70],
+                [31.90, 0]
+            ],
+            "es": [
+                [6.20, 6.70],
+                [6.80, 8.20],
+                [8.40, 9.50],
+                [9.70, 10.90],
+                [11.10, 12.30],
+                [12.50, 13.80],
+                [14.00, 16.30],
+                [16.50, 17.60],
+                [17.80, 18.70],
+                [18.90, 20.00],
+                [20.20, 21.30],
+                [21.50, 22.50],
+                [22.70, 23.80],
+                [24.00, 25.40],
+                [25.60, 26.80],
+                [27.00, 28.20],
+                [28.40, 29.80],
+                [30.00, 30.60],
+                [30.80, 0]
+            ]
+        }
+    },
+
+    "a3_2_vegetables": {
+        "elements": [
+            "#vegetables_0_highlight",
+            "#vegetables_1_highlight",
+            "#vegetables_2_highlight",
+            "#vegetables_3_highlight",
+            "#vegetables_4_highlight",
+            "#vegetables_5_highlight",
+            "#vegetables_6_highlight",
+            "#vegetables_7_highlight"
+        ],
+        "points": {
+            "en": [
+                [13.50, 15.40],
+                [15.50, 17.40],
+                [17.50, 19.40],
+                [19.50, 21.40],
+                [21.50, 23.40],
+                [23.50, 25.40],
+                [25.50, 27.70],
+                [27.50, 0]
+            ],
+            "es": [
+                [17.9, 19.2],
+                [20.2, 21.1],
+                [22, 23.2],
+                [24.2, 25.5],
+                [26.4, 27.7],
+                [28.7, 30],
+                [31, 32.3],
+                [33.3, 0]
+            ]
+        }
+    },
+
+    "a3_3_fruit": {
+        "elements": [
+            "#fruit_0_highlight",
+            "#fruit_1_highlight",
+            "#fruit_2_highlight",
+            "#fruit_3_highlight",
+            "#fruit_4_highlight",
+            "#fruit_5_highlight",
+            "#fruit_6_highlight",
+            "#fruit_7_highlight"
+        ],
+        "points": {
+            "en": [
+                [13.00, 14.90],
+                [15.00, 16.90],
+                [17.00, 18.90],
+                [19.00, 20.90],
+                [21.00, 22.90],
+                [23.00, 24.90],
+                [25.00, 27.20],
+                [27.00, 0]
+            ],
+            "es": [
+                [17.50, 18.80],
+                [19.80, 20.70],
+                [21.70, 22.80],
+                [23.80, 25.00],
+                [26.00, 27.30],
+                [28.25, 29.60],
+                [30.60, 31.90],
+                [32.90, 0]
+            ]
+        }
+    },
+
+    "a3_4_sugar": {
+        "elements": [
+            "#drinks_0_highlight",
+            "#drinks_1_highlight",
+            "#drinks_2_highlight",
+            "#drinks_3_highlight"
+        ],
+        "points": {
+            "en": [
+                [16.70, 26.29],
+                [18.59, 28.18],
+                [20.56, 30.15],
+                [22.59, 0]
+            ],
+            "es": [
+                [20.00, 21.60],
+                [21.80, 23.20],
+                [23.40, 25.00],
+                [25.20, 0]
+            ]
+        }
+    },
+
+    "a4_1_salt1": {
+        "elements": [
+            "#processed_0_highlight",
+            "#processed_1_highlight",
+            "#processed_2_highlight",
+            "#processed_3_highlight",
+            "#processed_4_highlight",
+            "#processed_5_highlight",
+            "#processed_6_highlight",
+            "#processed_7_highlight",
+            "#processed_8_highlight"
+        ],
+        "points": {
+            "en": [
+                [21.17, 22.94],
+                [23.15, 24.98],
+                [25.05, 26.78],
+                [26.87, 28.70],
+                [28.95, 30.73],
+                [30.98, 32.86],
+                [33.04, 34.83],
+                [34.90, 0]
+            ],
+            "es": [
+                [23.2, 24.2],
+                [25.2, 26],
+                [27, 28],
+                [29, 30],
+                [31, 32],
+                [33, 34.2],
+                [35.2, 36.5],
+                [37.45, 0]
+            ]
+        }
+    },
+
+    "a4_2_salt2": {
+        "elements": [
+            "#salt_0_highlight",
+            "#salt_1_highlight"
+        ],
+        "points": {
+            "en": [
+                [6.24, 7.49],
+                [7.73, 0]
+            ],
+            "es": [
+                [7.9, 9.3],
+                [9.4, 0]
+            ]
+        }
+    },
+
+    "a4_3_fat1": {
+        "elements": [
+            "#fat_0_highlight",
+            "#fat_1_highlight",
+            "#fat_2_highlight",
+            "#fat_3_highlight",
+            "#fat_4_highlight",
+            "#fat_5_highlight",
+            "#fat_6_highlight",
+            "#fat_7_highlight"
+        ],
+        "points": {
+            "en": [
+                [13.90, 15.60],
+                [15.90, 17.40],
+                [17.70, 19.40],
+                [19.70, 21.40],
+                [21.70, 23.40],
+                [23.70, 25.40],
+                [25.70, 27.60],
+                [27.90, 0]
+            ],
+            "es": [
+                [17.30, 19.00],
+                [19.30, 20.75],
+                [21.05, 22.80],
+                [23.10, 24.75],
+                [25.05, 26.80],
+                [27.10, 29.00],
+                [29.30, 31.26],
+                [31.56, 0]
+            ]
+        }
+    },
+
+    "a4_4_fat2": {
+        "elements": [
+            "#size_0_highlight",
+            "#size_1_highlight"
+        ],
+        "points": {
+            "en": [
+                [5.18, 7.46],
+                [7.60, 0]
+            ],
+            "es": [
+                [6.35, 7.91],
+                [8.93, 0]
+            ]
+        }
+    },
+
+    "a5_1_eating_tier2": {
+        "elements": [
+            "#eating_better_0_highlight",
+            "#eating_better_1_highlight",
+            "#eating_better_2_highlight",
+            "#eating_better_3_highlight",
+            "#eating_better_4_highlight",
+            "#eating_better_5_highlight"
+        ],
+        "points": {
+            "en": [
+                [9.61, 12.32],
+                [12.45, 15.32],
+                [15.45, 18.41],
+                [18.55, 20.36],
+                [20.60, 23.34],
+                [23.58, 0]
+            ],
+            "es": [
+                [14.65, 16.77],
+                [17.76, 19.95],
+                [20.93, 24],
+                [24.99, 26.44],
+                [27.44, 29.77],
+                [30.76, 0]
+            ]
+        }
+    },
+
+    "a6_2_physical1": {
+        "elements": [
+            "#weekly_exercise_days_exercise_days_0_highlight",
+            "#weekly_exercise_days_exercise_days_1_highlight",
+            "#weekly_exercise_days_exercise_days_2_highlight",
+            "#weekly_exercise_days_exercise_days_3_highlight",
+            "#weekly_exercise_days_exercise_days_4_highlight",
+            "#weekly_exercise_days_exercise_days_5_highlight",
+            "#weekly_exercise_days_exercise_days_6_highlight",
+            "#weekly_exercise_days_exercise_days_7_highlight"
+        ],
+        "points": {
+            "en": [
+                [16.40, 18.50],
+                [18.60, 20.19],
+                [20.29, 22.08],
+                [22.23, 23.92],
+                [24.09, 25.94],
+                [26.11, 27.96],
+                [28.08, 30.15],
+                [30.35, 0]
+            ],
+            "es": [
+                [18.65, 20.30],
+                [20.50, 22.20],
+                [22.40, 24.30],
+                [24.50, 26.20],
+                [26.40, 28.20],
+                [28.40, 30.40],
+                [30.60, 32.70],
+                [32.90, 0]
+            ]
+        }
+    },
+
+    "a6_3_physical2": {
+        "elements": [
+            "#exercise_duration_0_highlight",
+            "#exercise_duration_1_highlight",
+            "#exercise_duration_2_highlight",
+            "#exercise_duration_3_highlight",
+            "#exercise_duration_4_highlight",
+            "#exercise_duration_5_highlight",
+            "#exercise_duration_6_highlight",
+            "#exercise_duration_7_highlight"
+        ],
+        "points": {
+            "en": [
+                [9.72, 12.6],
+                [12.79, 15.43],
+                [15.66, 18.02],
+                [18.12, 20.64],
+                [20.82, 23.31],
+                [23.56, 25.85],
+                [26.1, 28.99],
+                [29.14, 0]
+            ],
+            "es": [
+                [12.55, 14.9],
+                [15.88, 17.53],
+                [18.52, 20.25],
+                [21.25, 23.41],
+                [24.41, 26.45],
+                [27.43, 29.41],
+                [30.37, 32.77],
+                [33.77, 0]
+            ]
+        }
+    },
+
+    "a7_1_physical_tier2": {
+        "elements": [
+            "#exercise_reasons_0_highlight",
+            "#exercise_reasons_1_highlight",
+            "#exercise_reasons_2_highlight",
+            "#exercise_reasons_3_highlight",
+            "#exercise_reasons_4_highlight",
+            "#exercise_reasons_5_highlight",
+            "#exercise_reasons_6_highlight"
+        ],
+        "points": {
+            "en": [
+                [9.74, 13.33],
+                [13.54, 15.86],
+                [16.09, 18.26],
+                [18.48, 20.79],
+                [20.95, 23.77],
+                [23.93, 26.89],
+                [27.09, 0]
+            ],
+            "es": [
+                [13.28, 17.32],
+                [18.31, 19.73],
+                [20.72, 21.97],
+                [22.96, 24.24],
+                [25.25, 27.4],
+                [28.4, 30.76],
+                [31.75, 0]
+            ]
+        }
+    },
+
+    "a9_2_forgot": {
+        "elements": [
+            "#prescription_adherence_0_highlight",
+            "#prescription_adherence_1_highlight",
+            "#prescription_adherence_2_highlight"
+        ],
+        "points": {
+            "en": [
+                [3.34, 5.06],
+                [5.31, 7.04],
+                [7.24, 0]
+            ],
+            "es": [
+                [4.02, 4.65],
+                [5.63, 6.46],
+                [7.25, 0]
+            ]
+        }
+    },
+
+    "a9_3_afford": {
+        "elements": [
+            "#afford_meds_0_highlight",
+            "#afford_meds_1_highlight",
+            "#afford_meds_2_highlight"
+        ],
+        "points": {
+            "en": [
+                [2.76, 4.48],
+                [4.73, 6.46],
+                [6.66, 0]
+            ],
+            "es": [
+                [3.47, 4.11],
+                [5.09, 5.91],
+                [6.71, 0]
+            ]
+        }
+    },
+
+    "a9_3_effects": {
+        "elements": [
+            "#side_effects_0_highlight",
+            "#side_effects_1_highlight",
+            "#side_effects_2_highlight"
+        ],
+        "points": {
+            "en": [
+                [3.16, 4.88],
+                [5.13, 6.86],
+                [7.06, 0]
+            ],
+            "es": [
+                [3.92, 4.55],
+                [5.53, 6.35],
+                [7.16, 0]
+            ]
+        }
+    },
+
+    "a9_4_nothelp": {
+        "elements": [
+            "#meds_ineffective_0_highlight",
+            "#meds_ineffective_1_highlight",
+            "#meds_ineffective_2_highlight"
+
+        ],
+        "points": {
+            "en": [
+                [3.20, 4.92],
+                [5.17, 6.90],
+                [7.10, 0]
+            ],
+            "es": [
+                [4.2, 4.84],
+                [5.81, 6.64],
+                [7.45, 0]
+            ]
+        }
+    },
+
+    "a9_5_feltbetter": {
+        "elements": [
+            "#felt_better_0_highlight",
+            "#felt_better_1_highlight",
+            "#felt_better_2_highlight"
+        ],
+        "points": {
+            "en": [
+                [3.85, 5.57],
+                [5.82, 7.55],
+                [7.75, 0]
+            ],
+            "es": [
+                [4.1, 4.74],
+                [5.72, 6.54],
+                [7.35, 0]
+            ]
+        }
+    },
+
+    "a9_6_couldntget": {
+        "elements": [
+            "#couldnt_get_meds_0_highlight",
+            "#couldnt_get_meds_1_highlight",
+            "#couldnt_get_meds_2_highlight"
+        ],
+        "points": {
+            "en": [
+                [3.60, 5.32],
+                [5.57, 7.30],
+                [7.50, 0]
+            ],
+            "es": [
+                [4.38, 5.03],
+                [6, 6.82],
+                [7.61, 0]
+            ]
+        }
+    },
+
+    "a9_7_other": {
+        "elements": [
+            "#meds_other_reason_0_highlight",
+            "#meds_other_reason_1_highlight",
+            "#meds_other_reason_2_highlight"
+        ],
+        "points": {
+            "en": [
+                [2.39, 4.11],
+                [4.36, 6.09],
+                [6.29, 0]
+            ],
+            "es": [
+                [2.07, 2.69],
+                [3.68, 4.5],
+                [5.3, 0]
+            ]
+        }
+    },
+
+    "a10_3_alcohol2_female": {
+        "elements": [
+            "#3_drinks_day_0_highlight",
+            "#3_drinks_day_1_highlight"
+        ],
+        "points": {
+            "en": [
+                [6.68, 8.04],
+                [8.22, 0]
+            ],
+            "es": [
+                [6.34, 6.74],
+                [7.69, 0]
+            ]
+        }
+    },
+
+    "a10_3_alcohol2_male": {
+        "elements": [
+            "#3_drinks_day_0_highlight",
+            "#3_drinks_day_1_highlight"
+        ],
+        "points": {
+            "en": [
+                [6.68, 8.04],
+                [8.22, 0]
+            ],
+            "es": [
+                [6.34, 6.74],
+                [7.69, 0]
+            ]
+        }
+    },
+
+    "a11_2_tobacco1": {
+        "elements": [
+            "#tobacco_usage_0_highlight",
+            "#tobacco_usage_1_highlight"
+        ],
+        "points": {
+            "en": [
+                [11.12, 12.31],
+                [12.41, 0]
+            ],
+            "es": [
+                [17.24, 17.62],
+                [18.61, 0]
+            ]
+        }
+    },
+
+    "a11_3_tobacco2": {
+        "elements": [
+            "#cigarette_usage_0_highlight",
+            "#cigarette_usage_1_highlight"
+        ],
+        "points": {
+            "en": [
+                [5.12, 6.50],
+                [6.70, 0]
+            ],
+            "es": [
+                [7.12, 7.49],
+                [8.48, 0]
+            ]
+        }
+    },
+
+    "a11_5_tobacco4": {
+        "elements": [
+            "#pipe_cigar_0_highlight",
+            "#pipe_cigar_1_highlight"
+        ],
+        "points": {
+            "en": [
+                [4.10, 5.55],
+                [5.69, 0]
+            ],
+            "es": [
+                [5.03, 5.39],
+                [6.4, 0]
+            ]
+        }
+    },
+
+    "a11_7_tobacco5": {
+        "elements": [
+            "#smokeless_tobacco_0_highlight",
+            "#smokeless_tobacco_1_highlight"
+        ],
+        "points": {
+            "en": [
+                [6.80, 8.30],
+                [8.45, 0]
+            ],
+            "es": [
+                [9.60, 10.70],
+                [10.90, 0]
+            ]
+        }
+    },
+
+    "a12_3_distress1": {
+        "elements": [
+            "#overwhelmed_health_0_highlight",
+            "#overwhelmed_health_1_highlight",
+            "#overwhelmed_health_2_highlight",
+            "#overwhelmed_health_3_highlight",
+            "#overwhelmed_health_4_highlight"
+        ],
+        "points": {
+            "en": [
+                [3.38, 5.38],
+                [5.52, 7.81],
+                [8.06, 10.52],
+                [10.77, 13.14],
+                [13.35, 0]
+            ],
+            "es": [
+                [4.55, 6.16],
+                [7.15, 9.24],
+                [10.22, 12.32],
+                [13.32, 15.19],
+                [16.17, 0]
+            ]
+        }
+    },
+
+    "a12_4_distress2": {
+        "elements": [
+            "#health_management_0_highlight",
+            "#health_management_1_highlight",
+            "#health_management_2_highlight",
+            "#health_management_3_highlight",
+            "#health_management_4_highlight"
+        ],
+        "points": {
+            "en": [
+                [5.20, 7.20],
+                [7.40, 9.80],
+                [10.00, 12.50],
+                [12.70, 15.00],
+                [15.20, 0]
+            ],
+            "es": [
+                [6.68, 8.31],
+                [9.26, 11.37],
+                [12.35, 14.45],
+                [15.45, 17.34],
+                [18.31, 0]
+            ]
+        }
+    },
+
+    "a13_1_distress_tier2": {
+        "elements": [
+            "#health_stress_0_highlight",
+            "#health_stress_1_highlight",
+            "#health_stress_2_highlight",
+            "#health_stress_3_highlight",
+            "#health_stress_4_highlight"
+        ],
+        "points": {
+            "en": [
+                [5.85, 9.30],
+                [9.50, 13.00],
+                [13.19, 15.97],
+                [16.19, 19.12],
+                [19.30, 0]
+            ],
+            "es": [
+                [8.1, 11.78],
+                [12.81, 16.57],
+                [17.57, 20.43],
+                [21.43, 24],
+                [25, 0]
+            ]
+        }
+    },
+
+    "a14_3_TAN1": {
+        "elements": [
+            "#find_better_way_0_highlight",
+            "#find_better_way_1_highlight",
+            "#find_better_way_2_highlight",
+            "#find_better_way_3_highlight",
+            "#find_better_way_4_highlight"
+        ],
+        "points": {
+            "en": [
+                [4.46, 6.75],
+                [6.94, 8.83],
+                [9.00, 11.83],
+                [12.03, 14.03],
+                [14.13, 0]
+            ],
+            "es": [
+                [5.35, 7.09],
+                [8.07, 9.14],
+                [10.13, 13.3],
+                [14.28, 15.06],
+                [16.06, 0]
+            ]
+        }
+    },
+
+    "a14_4_TAN2": {
+        "elements": [
+            "#health_no_time_0_highlight",
+            "#health_no_time_1_highlight",
+            "#health_no_time_2_highlight",
+            "#health_no_time_3_highlight",
+            "#health_no_time_4_highlight"
+        ],
+        "points": {
+            "en": [
+                [5.46, 7.75],
+                [7.94, 9.83],
+                [10.00, 12.83],
+                [13.03, 15.03],
+                [15.13, 0]
+            ],
+            "es": [
+                [7.33, 9.08],
+                [10.05, 11.11],
+                [12.12, 15.27],
+                [16.25, 17.06],
+                [18.05, 0]
+            ]
+        }
+    },
+
+    "a14_5_TAN3": {
+        "elements": [
+            "#few_benefits_0_highlight",
+            "#few_benefits_1_highlight",
+            "#few_benefits_2_highlight",
+            "#few_benefits_3_highlight",
+            "#few_benefits_4_highlight"
+        ],
+        "points": {
+            "en": [
+                [6.80, 9.09],
+                [9.28, 11.17],
+                [11.34, 14.17],
+                [14.37, 16.37],
+                [16.47, 0]
+            ],
+            "es": [
+                [7.73, 9.49],
+                [10.48, 11.52],
+                [12.54, 15.71],
+                [16.69, 17.49],
+                [18.46, 0]
+            ]
+        }
+    },
+
+    "a14_6_TAN4": {
+        "elements": [
+            "#health_do_more_0_highlight",
+            "#health_do_more_1_highlight",
+            "#health_do_more_2_highlight",
+            "#health_do_more_3_highlight",
+            "#health_do_more_4_highlight"
+        ],
+        "points": {
+            "en": [
+                [5.04, 7.33],
+                [7.52, 9.41],
+                [9.58, 12.41],
+                [12.61, 14.61],
+                [14.71, 0]
+            ],
+            "es": [
+                [5.84, 7.57],
+                [8.56, 9.61],
+                [10.63, 13.79],
+                [14.77, 15.56],
+                [16.54, 0]
+            ]
+        }
+    },
+
+    "a14_7_TAN5": {
+        "elements": [
+            "#health_demands_0_highlight",
+            "#health_demands_1_highlight",
+            "#health_demands_2_highlight",
+            "#health_demands_3_highlight",
+            "#health_demands_4_highlight"
+        ],
+        "points": {
+            "en": [
+                [5.68, 7.97],
+                [8.16, 10.05],
+                [10.22, 13.05],
+                [13.25, 15.25],
+                [15.35, 0]
+            ],
+            "es": [
+                [5.64, 7.39],
+                [8.37, 9.43],
+                [10.43, 13.6],
+                [14.58, 15.39],
+                [16.36, 0]
+            ]
+        }
+    },
+
+    "a14_8_TAN6": {
+        "elements": [
+            "#little_benefit_0_highlight",
+            "#little_benefit_1_highlight",
+            "#little_benefit_2_highlight",
+            "#little_benefit_3_highlight",
+            "#little_benefit_4_highlight"
+        ],
+        "points": {
+            "en": [
+                [4.80, 7.09],
+                [7.28, 9.17],
+                [9.34, 12.17],
+                [12.37, 14.37],
+                [14.47, 0]
+            ],
+            "es": [
+                [7.71, 9.44],
+                [10.43, 11.48],
+                [12.48, 15.67],
+                [16.65, 17.45],
+                [18.42, 0]
+            ]
+        }
+    },
+
+    "a14_9_TAN7": {
+        "elements": [
+            "#new_ways_0_highlight",
+            "#new_ways_1_highlight",
+            "#new_ways_2_highlight",
+            "#new_ways_3_highlight",
+            "#new_ways_4_highlight"
+        ],
+        "points": {
+            "en": [
+                [5.20, 7.49],
+                [7.68, 9.57],
+                [9.74, 12.57],
+                [12.77, 14.77],
+                [14.87, 0]
+            ],
+            "es": [
+                [6.92, 8.65],
+                [9.65, 10.7],
+                [11.71, 14.85],
+                [15.84, 16.63],
+                [17.64, 0]
+            ]
+        }
+    },
+
+    "a14_10_TAN8": {
+        "elements": [
+            "#not_worth_it_0_highlight",
+            "#not_worth_it_1_highlight",
+            "#not_worth_it_2_highlight",
+            "#not_worth_it_3_highlight",
+            "#not_worth_it_4_highlight"
+        ],
+        "points": {
+            "en": [
+                [6.58, 8.97],
+                [9.16, 11.05],
+                [11.22, 14.05],
+                [14.25, 16.25],
+                [16.35, 0]
+            ],
+            "es": [
+                [7.02, 8.75],
+                [9.73, 10.78],
+                [11.79, 14.95],
+                [15.94, 16.75],
+                [17.72, 0]
+            ]
+        }
+    },
+
+    "a14_11_TAN9": {
+        "elements": [
+            "#health_changes_0_highlight",
+            "#health_changes_1_highlight",
+            "#health_changes_2_highlight",
+            "#health_changes_3_highlight",
+            "#health_changes_4_highlight"
+        ],
+        "points": {
+            "en": [
+                [5.46, 7.70],
+                [7.90, 9.80],
+                [10.00, 12.90],
+                [13.10, 14.90],
+                [15.10, 0]
+            ],
+            "es": [
+                [6.22, 7.96],
+                [8.93, 10.01],
+                [11.01, 14.16],
+                [15.16, 15.94],
+                [16.93, 0]
+            ]
+        }
+    },
+
+    "a15_3_PHQ1": {
+        "elements": [
+            "#adhedonia_0_highlight",
+            "#adhedonia_1_highlight",
+            "#adhedonia_2_highlight",
+            "#adhedonia_3_highlight"
+        ],
+        "points": {
+            "en": [
+                [3.82, 5.62],
+                [5.82, 7.96],
+                [8.14, 10.34],
+                [10.54, 0]
+            ],
+            "es": [
+                [4.59, 5.79],
+                [6.78, 7.94],
+                [8.96, 10.54],
+                [11.54, 0]
+            ]
+        }
+    },
+
+    "a15_4_PHQ2": {
+        "elements": [
+            "#feeling_hopeless_0_highlight",
+            "#feeling_hopeless_1_highlight",
+            "#feeling_hopeless_2_highlight",
+            "#feeling_hopeless_3_highlight",
+            "#feeling_hopeless_4_highlight"
+        ],
+        "points": {
+            "en": [
+                [3.82, 5.62],
+                [5.82, 7.96],
+                [8.14, 10.34],
+                [10.54, 0]
+            ],
+            "es": [
+                [5.88, 7.08],
+                [8.06, 9.24],
+                [10.21, 11.83],
+                [12.81, 0]
+            ]
+        }
+    },
+
+    "a15_5_PHQ3": {
+        "elements": [
+            "#sleep_disturbance_0_highlight",
+            "#sleep_disturbance_1_highlight",
+            "#sleep_disturbance_2_highlight",
+            "#sleep_disturbance_3_highlight"
+        ],
+        "points": {
+            "en": [
+                [5.66, 7.46],
+                [7.66, 9.80],
+                [9.98, 12.18],
+                [12.38, 0]
+            ],
+            "es": [
+                [6.22, 7.41],
+                [8.42, 9.6],
+                [10.59, 12.18],
+                [13.17, 0]
+            ]
+        }
+    },
+
+    "a15_6_PHQ4": {
+        "elements": [
+            "#lethargy_0_highlight",
+            "#lethargy_1_highlight",
+            "#lethargy_2_highlight",
+            "#lethargy_3_highlight"
+        ],
+        "points": {
+            "en": [
+                [3.82, 5.62],
+                [5.82, 7.96],
+                [8.14, 10.34],
+                [10.54, 0]
+            ],
+            "es": [
+                [4.43, 5.62],
+                [6.62, 7.79],
+                [8.79, 10.39],
+                [11.36, 0]
+            ]
+        }
+    },
+
+    "a15_7_PHQ5": {
+        "elements": [
+            "#appetite_disturbance_0_highlight",
+            "#appetite_disturbance_1_highlight",
+            "#appetite_disturbance_2_highlight",
+            "#appetite_disturbance_3_highlight"
+        ],
+        "points": {
+            "en": [
+                [3.34, 5.14],
+                [5.34, 7.48],
+                [7.66, 9.86],
+                [10.06, 0]
+            ],
+            "es": [
+                [3.99, 5.19],
+                [6.18, 7.36],
+                [8.35, 9.96],
+                [10.94, 0]
+            ]
+        }
+    },
+
+    "a15_8_PHQ6": {
+        "elements": [
+            "#failure_feelings_0_highlight",
+            "#failure_feelings_1_highlight",
+            "#failure_feelings_2_highlight",
+            "#failure_feelings_3_highlight"
+        ],
+        "points": {
+            "en": [
+                [7.00, 8.80],
+                [9.00, 11.14],
+                [11.32, 13.52],
+                [13.72, 0]
+            ],
+            "es": [
+                [8.83, 10.04],
+                [11.04, 12.21],
+                [13.2, 14.79],
+                [15.78, 0]
+            ]
+        }
+    },
+
+    "a15_9_PHQ7": {
+        "elements": [
+            "#concentration_issues_0_highlight",
+            "#concentration_issues_1_highlight",
+            "#concentration_issues_2_highlight",
+            "#concentration_issues_3_highlight"
+        ],
+        "points": {
+            "en": [
+                [6.80, 8.60],
+                [8.80, 10.94],
+                [11.12, 13.32],
+                [13.52, 0]
+            ],
+            "es": [
+                [6.63, 7.83],
+                [8.82, 9.99],
+                [11, 12.58],
+                [13.58, 0]
+            ]
+        }
+    },
+
+    "a15_10_PHQ8": {
+        "elements": [
+            "#feeling_slow_0_highlight",
+            "#feeling_slow_1_highlight",
+            "#feeling_slow_2_highlight",
+            "#feeling_slow_3_highlight"
+        ],
+        "points": {
+            "en": [
+                [10.68, 12.48],
+                [12.68, 14.82],
+                [15.00, 17.20],
+                [17.40, 0]
+            ],
+            "es": [
+                [13.32, 14.52],
+                [15.49, 16.69],
+                [17.66, 19.26],
+                [20.23, 0]
+            ]
+        }
+    },
+
+    "a16_2_stress1": {
+        "elements": [
+            "#stress_0_highlight",
+            "#stress_1_highlight"
+        ],
+        "points": {
+            "en": [
+                [13.06, 14.40],
+                [14.60, 0]
+            ],
+            "es": [
+                [17.64, 17.99],
+                [18.98, 0]
+            ]
+        }
+    },
+
+    "a16_4_stress2_1": {
+        "elements": [
+            "#running_out_of_food_0_highlight",
+            "#running_out_of_food_1_highlight"
+        ],
+        "points": {
+            "en": [
+                [5.52, 6.86],
+                [7.06, 0]
+            ],
+            "es": [
+                [7.53, 7.88],
+                [8.87, 0]
+            ]
+        }
+    },
+
+    "a16_5_stress2_2": {
+        "elements": [
+            "#bill_problems_0_highlight",
+            "#bill_problems_1_highlight"
+        ],
+        "points": {
+            "en": [
+                [6.31, 7.65],
+                [7.85, 0]
+            ],
+            "es": [
+                [9.81, 10.17],
+                [11.16, 0]
+            ]
+        }
+    },
+
+    "a16_6_stress2_3": {
+        "elements": [
+            "#transportation_problems_0_highlight",
+            "#transportation_problems_1_highlight"
+        ],
+        "points": {
+            "en": [
+                [7.60, 8.94],
+                [9.14, 0]
+            ],
+            "es": [
+                [10.89, 11.25],
+                [12.22, 0]
+            ]
+        }
+    },
+
+    "a16_7_stress2_4": {
+        "elements": [
+            "#unstable_housing_0_highlight",
+            "#unstable_housing_1_highlight"
+        ],
+        "points": {
+            "en": [
+                [8.86, 10.20],
+                [10.40, 0]
+            ],
+            "es": [
+                [13.08, 13.43],
+                [14.42, 0]
+            ]
+        }
+    },
+
+    "a16_8_stress2_5": {
+        "elements": [
+            "#physical_abuse_0_highlight",
+            "#physical_abuse_1_highlight"
+        ],
+        "points": {
+            "en": [
+                [6.84, 8.18],
+                [8.38, 0]
+            ],
+            "es": [
+                [8.8, 9.15],
+                [10.14, 0]
+            ]
+        }
+    },
+
+    "a16_9_stress2_6": {
+        "elements": [
+            "#unsafe_at_home_0_highlight",
+            "#unsafe_at_home_1_highlight"
+        ],
+        "points": {
+            "en": [
+                [2.90, 4.24],
+                [4.44, 0]
+            ],
+            "es": [
+                [3.47, 3.83],
+                [4.82, 0]
+            ]
+        }
+    },
+
+    "a17_2_ethnic": {
+        "elements": [
+            "#latino_0_highlight",
+            "#latino_1_highlight"
+        ],
+        "points": {
+            "en": [
+                [3.76, 5.11],
+                [5.20, 0]
+            ],
+            "es": [
+                [3.92, 4.28],
+                [5.27, 0]
+            ]
+        }
+    },
+
+    "a17_3_race": {
+        "elements": [
+            "#race_0_highlight",
+            "#race_1_highlight",
+            "#race_2_highlight",
+            "#race_3_highlight",
+            "#race_4_highlight",
+            "#race_5_highlight"
+        ],
+        "points": {
+            "en": [
+                [5.62, 9.22],
+                [9.38, 11.02],
+                [11.21, 14.18],
+                [14.37, 18.09],
+                [18.25, 20.17],
+                [20.25, 0]
+            ],
+            "es": [
+                [5.60, 9.10],
+                [9.30, 11.10],
+                [11.30, 14.00],
+                [14.20, 18.60],
+                [18.80, 20.30],
+                [20.50, 0]
+            ]
+        }
+    },
+
+    "a17_4_school": {
+        "elements": [
+            "#education_0_highlight",
+            "#education_1_highlight",
+            "#education_2_highlight",
+            "#education_3_highlight",
+            "#education_4_highlight",
+            "#education_5_highlight"
+        ],
+        "points": {
+            "en": [
+                [3.27, 5.35],
+                [5.63, 8.09],
+                [8.46, 10.33],
+                [10.64, 12.54],
+                [12.78, 15.52],
+                [15.77, 0]
+            ],
+            "es": [
+                [3.86, 5.33],
+                [6.34, 11.26],
+                [12.24, 15.61],
+                [16.62, 18.61],
+                [19.56, 22.66],
+                [23.67, 0]
+            ]
+        }
+    },
+
+    "a18_2_SHA1": {
+        "elements": [
+            "#xxxxxxxxxx"
+        ],
+        "points": {
+            "en": [
+                [3.75, 5.37],
+                [5.54, 7.12],
+                [7.25, 0]
+            ],
+            "es": [
+                [3.98, 4.51],
+                [5.48, 5.98],
+                [6.96, 0]
+            ]
+        }
+    },
+
+    "a18_3_SHA2": {
+        "elements": [
+            "#xxxxxxxxxx"
+        ],
+        "points": {
+            "en": [
+                [3.69, 5.31],
+                [5.48, 7.06],
+                [7.19, 0]
+            ],
+            "es": [
+                [3.24, 3.77],
+                [4.76, 5.24],
+                [6.23, 0]
+            ]
+        }
+    },
+
+    "a18_4_SHA3": {
+        "elements": [
+            "#xxxxxxxxxx"
+        ],
+        "points": {
+            "en": [
+                [4.75, 6.37],
+                [6.54, 8.12],
+                [8.25, 0]
+            ],
+            "es": [
+                [5.91, 6.43],
+                [7.43, 7.91],
+                [8.9, 0]
+            ]
+        }
+    },
+
+    "a18_5_SHA4": {
+        "elements": [
+            "#xxxxxxxxxx"
+        ],
+        "points": {
+            "en": [
+                [3.75, 5.37],
+                [5.54, 7.12],
+                [7.25, 0]
+            ],
+            "es": [
+                [4.78, 5.29],
+                [6.29, 6.78],
+                [7.77, 0]
+            ]
+        }
+    },
+
+    "a18_6_SHA5": {
+        "elements": [
+            "#xxxxxxxxxx"
+        ],
+        "points": {
+            "en": [
+                [5.77, 7.39],
+                [7.56, 9.14],
+                [9.27, 0]
+            ],
+            "es": [
+                [6.59, 7.1],
+                [8.1, 8.59],
+                [9.58, 0]
+            ]
+        }
+    },
+
+    "a18_7_SHA6": {
+        "elements": [
+            "#xxxxxxxxxx"
+        ],
+        "points": {
+            "en": [
+                [6.84, 8.46],
+                [8.63, 10.21],
+                [10.34, 0]
+            ],
+            "es": [
+                [7.82, 8.33],
+                [9.33, 9.82],
+                [10.81, 0]
+            ]
+        }
+    },
+
+    "a18_8_SHA7": {
+        "elements": [
+            "#xxxxxxxxxx"
+        ],
+        "points": {
+            "en": [
+                [5.40, 7.02],
+                [7.19, 8.77],
+                [8.90, 0]
+            ],
+            "es": [
+                [6.09, 6.6],
+                [7.6, 8.08],
+                [9.08, 0]
+            ]
+        }
+    },
+
+    "a18_9_SHA8": {
+        "elements": [
+            "#xxxxxxxxxx"
+        ],
+        "points": {
+            "en": [
+                [4.80, 6.42],
+                [6.59, 8.17],
+                [8.30, 0]
+            ],
+            "es": [
+                [4.83, 5.35],
+                [6.34, 6.83],
+                [7.83, 0]
+            ]
+        }
+    },
+
+    "a18_10_SHA9": {
+        "elements": [
+            "#xxxxxxxxxx"
+        ],
+        "points": {
+            "en": [
+                [4.20, 5.82],
+                [5.99, 7.57],
+                [7.70, 0]
+            ],
+            "es": [
+                [5.7, 6.21],
+                [7.21, 7.7],
+                [8.7, 0]
+            ]
+        }
+    },
+
+    "a18_11_SHA10": {
+        "elements": [
+            "#xxxxxxxxxx"
+        ],
+        "points": {
+            "en": [
+                [9.80, 11.42],
+                [11.59, 13.17],
+                [13.30, 0]
+            ],
+            "es": [
+                [9.96, 10.47],
+                [11.46, 11.96],
+                [12.95, 0]
+            ]
+        }
+    },
+
+    "a18_12_SHA11": {
+        "elements": [
+            "#xxxxxxxxxx"
+        ],
+        "points": {
+            "en": [
+                [4.11, 5.73],
+                [5.90, 7.48],
+                [7.61, 0]
+            ],
+            "es": [
+                [4.68, 5.19],
+                [6.19, 6.67],
+                [7.67, 0]
+            ]
+        }
+    },
+
+    "a18_13_SHA12": {
+        "elements": [
+            "#xxxxxxxxxx"
+        ],
+        "points": {
+            "en": [
+                [11.60, 13.22],
+                [13.39, 14.97],
+                [15.10, 0]
+            ],
+            "es": [
+                [11.87, 12.38],
+                [13.38, 13.87],
+                [14.85, 0]
+            ]
+        }
+    },
+
+    "a18_14_SHA13": {
+        "elements": [
+            "#xxxxxxxxxx"
+        ],
+        "points": {
+            "en": [
+                [7.30, 8.92],
+                [9.09, 10.67],
+                [10.80, 0]
+            ],
+            "es": [
+                [9.86, 10.37],
+                [11.37, 11.85],
+                [12.85, 0]
+            ]
+        }
+    },
+
+    "a18_15_SHA14": {
+        "elements": [
+            "#xxxxxxxxxx"
+        ],
+        "points": {
+            "en": [
+                [7.00, 8.62],
+                [8.79, 10.37],
+                [10.50, 0]
+            ],
+            "es": [
+                [6.94, 7.455],
+                [8.45, 8.94],
+                [9.93, 0]
+            ]
+        }
+    },
+
+    "a18_16_SHA15": {
+        "elements": [
+            "#xxxxxxxxxx"
+        ],
+        "points": {
+            "en": [
+                [7.35, 8.97],
+                [9.14, 10.72],
+                [10.85, 0]
+            ],
+            "es": [
+                [6.92, 7.42],
+                [8.42, 8.91],
+                [9.9, 0]
+            ]
+        }
+    },
+
+    "a18_17_SHA16": {
+        "elements": [
+            "#xxxxxxxxxx"
+        ],
+        "points": {
+            "en": [
+                [5.10, 6.72],
+                [6.89, 8.47],
+                [8.60, 0]
+            ],
+            "es": [
+                [5.83, 6.34],
+                [7.33, 7.82],
+                [8.81, 0]
+            ]
+        }
+    },
+
+    "a18_18_SHA17": {
+        "elements": [
+            "#xxxxxxxxxx"
+        ],
+        "points": {
+            "en": [
+                [6.20, 7.82],
+                [7.99, 9.57],
+                [9.70, 0]
+            ],
+            "es": [
+                [6.81, 7.3],
+                [8.3, 8.79],
+                [9.78, 0]
+            ]
+        }
+    },
+
+    "a18_19_SHA18": {
+        "elements": [
+            "#xxxxxxxxxx"
+        ],
+        "points": {
+            "en": [
+                [8.10, 12.97],
+                [9.89, 14.72],
+                [11.60, 0]
+            ],
+            "es": [
+                [7.57, 8.07],
+                [9.06, 9.55],
+                [10.55, 0]
+            ]
+        }
+    },
+
+    "a18_20_SHA19": {
+        "elements": [
+            "#xxxxxxxxxx"
+        ],
+        "points": {
+            "en": [
+                [5.20, 10.42],
+                [6.99, 12.17],
+                [8.70, 0]
+            ],
+            "es": [
+                [5.01, 5.5],
+                [6.5, 6.99],
+                [7.98, 0]
+            ]
+        }
+    }
+
+}

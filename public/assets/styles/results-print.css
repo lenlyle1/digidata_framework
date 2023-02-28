@@ -1,0 +1,317 @@
+@page {
+	margin: 40pt;
+}
+
+/* http://stackoverflow.com/a/15253634/922323 */
+*,
+*:before,
+*:after { -webkit-print-color-adjust: exact; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	page-break-after: avoid;
+	page-break-inside: avoid
+}
+
+img {
+	page-break-inside: avoid;
+	page-break-after: avoid;
+}
+
+table {
+	page-break-inside: auto;
+}
+
+tr {
+	page-break-inside: avoid;
+	page-break-after: auto;
+}
+
+/* Fixes overlapping table headers: */
+thead {
+	display: table-row-group;
+}
+
+tbody::before,
+tbody::after {
+	display: none;
+}
+
+a {
+	page-break-inside: avoid;
+}
+
+a[href^=http]::after {
+	content:" <" attr(href) "> ";
+}
+
+a::after > img {
+	content: "";
+}
+
+article a[href^="#"]::after {
+	content: "";
+}
+
+a:not(:local-link)::after {
+	content:" <" attr(href) "> ";
+}
+
+ul {
+	page-break-before: avoid;
+}
+
+.break {
+	page-break-after: always;
+}
+
+/*-------------------------------------------------------------------*/
+
+body {
+	font: 10pt Arial, sans-serif;
+	line-height: 1.2;
+	background: #fff !important;
+	color: black;
+	line-height: 1.2;
+	max-width: 612pt;
+	margin: 0 auto;
+}
+
+a,
+a:link,
+a:visited {
+	background: transparent;
+	color: blue;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: left;
+}
+
+p {
+	font-size: 100%;
+	margin: 5pt 0;
+}
+
+h1,
+h2,
+h3 {
+	margin: 10pt 0;
+}
+h1 {
+	color: #0080b1;
+	font-size: 14pt;
+}
+h2,
+h3 {
+	font-size: 12pt;
+}
+h1 + h2,
+h2 + h3 {
+	margin-top: -10pt;
+}
+h3 + table {
+	margin-top: 0;
+}
+h4 {
+	font-size: 13pt;
+	margin: 5pt 0;
+}
+
+img.logo {
+	float: right;
+}
+
+.area {
+	border-bottom: 1pt solid #333;
+	padding-bottom: 3pt;
+}
+.area + h3 {
+	margin-top: -5pt;
+	font-weight: normal;
+}
+
+#legend {
+	background: #fff;
+	border: 2pt solid #0080b1;
+	margin: 10pt 0;
+}
+#legend h3 {
+	font-weight: normal;
+	letter-spacing: 1.5pt;
+	color: #fff;
+	background: #0080b1;
+	margin: 0;
+	padding: 5pt;
+}
+#legend > div {
+	padding: 10pt;
+}
+#legend > div > :first-child {
+	margin-top: 0;
+}
+#legend > div > :last-child {
+	margin-bottom: 0;
+}
+#legend p {
+	margin: 5pt 0;
+}
+#legend p::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+#legend img {
+	float: left;
+	padding-right: 10pt;
+}
+#legend span {
+	overflow: hidden;
+	display: block;
+}
+
+table {
+	width: 100%;
+	margin: 5pt 0;
+	border: 2pt solid darkgray;
+    display: inline-table;
+    border-collapse: collapse;
+    empty-cells: hide;
+}
+table thead {
+	vertical-align: bottom;
+}
+table th,
+table td {
+    text-align: left;
+    padding: 5pt;
+}
+table tbody {
+	vertical-align: top;
+}
+table thead th,
+table tbody td {
+	border-bottom: 2pt solid darkgray;
+}
+table thead th {
+	border-bottom-width: 2pt;
+}
+table tbody tr:last-child th,
+table tbody tr:last-child td {
+	border-bottom: 0;
+}
+table th,
+table td {
+    border-right: 1pt solid;
+    border-left: 1pt solid;
+}
+table th:first-child,
+table td:first-child {
+	border-left: 0;
+}
+table th:last-child,
+table td:last-child {
+	border-right: 0;
+}
+
+/*
+table.good {
+	border: 3pt solid #5cb85c;
+}
+table.good tbody td:first-child {
+	color: #5cb85c;
+}
+table.good th,
+table.good td {
+	border-color: #5cb85c;
+}
+
+table.warn {
+	border: 3pt solid #d67f04;
+}
+table.warn tbody td:first-child {
+	color: #d67f04;
+}
+table.warn th,
+table.warn td {
+	border-color: #d67f04;
+}
+
+table.danger {
+	border: 3pt solid #c9302c;
+}
+table.danger tbody td:first-child {
+	color: #c9302c;
+}
+table.danger th,
+table.danger td {
+	border-color: #c9302c;
+}
+*/
+
+#next {
+	border: 2pt solid #0080b1;
+	margin: 10pt 0;
+}
+#next h3 {
+	font-weight: normal;
+	letter-spacing: 1.5pt;
+	color: #fff;
+	background: #0080b1;
+	margin: 0;
+	padding: 5pt;
+}
+#next > div {
+	padding: 10pt;
+}
+#next > div > :first-child {
+	margin-top: 0;
+}
+#next > div > :last-child {
+	margin-bottom: 0;
+}
+#next label {
+	display: block;
+}
+
+.color-green {
+	 color: #5cb85c;
+}
+.color-yellow {
+	color: #d67f04;
+}
+.color-red {
+	color: #c9302c;
+}
+
+ul {
+	padding: 0;
+	-moz-column-count: 3;
+	-moz-column-gap: 20pt;
+	-webkit-column-count: 3;
+	-webkit-column-gap: 20pt;
+	column-count: 3;
+	column-gap: 20pt;
+}
+ul li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.compact {
+	margin: -5pt 0 10pt;
+}
+.compact * {
+	display: inline;
+}
+
+.clear::after {
+	content: "";
+	display: table;
+	clear: both;
+	margin: 10pt 0;
+}

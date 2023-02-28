@@ -1,0 +1,37 @@
+/*
+https://gist.github.com/mhulse/66bcbb7099bb4beae530
+https://gist.github.com/Ema4rl/b8ef90be99205ddada5ef2cd6e632ebe
+*/
+
+
+[data-slides-preload] {
+	display: none;
+}
+
+[data-slides],
+[data-slides]::after {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+[data-slides]::after {
+	content: '';
+	background: rgba(255, 255, 255, 0.65);
+}
+
+[data-slides] {
+	background-image: url(../images/photos/slideshow/01.jpg); /* Default image. */
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center top;
+	-webkit-transition: background 2s ease;
+	-o-transition: background 2s ease;
+	-moz-transition: background 2s ease;
+	transition: background 2s ease;
+}

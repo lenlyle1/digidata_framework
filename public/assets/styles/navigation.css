@@ -1,0 +1,217 @@
+/* NAVIGATION CONTAINER
+------------------------------------------------------------------------------ */
+
+#top {
+	background: #7dbebe;
+	border-bottom: 2px solid #267074;
+	height: 40px;
+	position: relative;
+}
+#top .container {
+	position: relative;
+	background: #0c8f8f;
+	height: 80px;
+}
+@media (min-width: 48em) {
+	#top .container {
+		background: transparent;
+		height: auto;
+	}
+}
+
+/* ALL LISTS
+------------------------------------------------------------------------------ */
+
+#navigation {
+	font-size: 14px;
+	letter-spacing: 0.025em;
+}
+@media (min-width: 80em) {
+	#navigation {
+		font-size: 16px;
+	}
+}
+
+#navigation ul,
+#navigation li {
+	margin: 0;
+	padding: 0;
+}
+#navigation li { list-style: none; }
+#navigation li a {
+	background: #fff;
+	border-width: 0 1px 1px;
+	border-style: solid;
+	padding: 5px 10px;
+	display: block;
+}
+@media (min-width: 48em) {
+	#navigation li {
+		float: left;
+	}
+	#navigation ul {
+		height: 40px;
+	}
+	#navigation li a {
+		line-height: 40px;
+		white-space: nowrap;
+		background: transparent;
+		border: 0;
+		padding: 0 15px;
+		height: 40px;
+	}
+}
+@media (min-width: 80em) {
+	#navigation li a {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+}
+
+/* JUST TOP-LEVEL LISTS
+------------------------------------------------------------------------------ */
+
+#navigation > ul {
+	width: 100%;
+	position: absolute;
+	top: 80px;
+	left: 0;
+	z-index: 200;
+	-webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+	     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+}
+@media (min-width: 48em) {
+	#navigation > ul {
+		background: #0c8f8f;
+		border-bottom: 2px solid #267074;
+		width: auto;
+		position: relative;
+		top: auto;
+	}
+	#navigation > ul::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	#navigation > ul > li a,
+	#navigation > ul > li a:visited,
+	#navigation > ul > li a:visited:hover,
+	#navigation > ul > li a:focus,
+	#navigation > ul > li a:focus:hover,
+	#navigation > ul > li a:hover,
+	#navigation > ul > li a:active { color: #fff; }
+	#navigation > ul > li.selected a,
+	#navigation > ul > li.selected a:visited,
+	#navigation > ul > li.selected a:visited:hover,
+	#navigation > ul > li.selected a:focus,
+	#navigation > ul > li.selected a:focus:hover,
+	#navigation > ul > li.selected a:hover,
+	#navigation > ul > li.selected a:active {
+		color: #405059;
+		background: #fff;
+	}
+}
+
+/* SUB-LEVEL LISTS
+------------------------------------------------------------------------------ */
+
+#navigation ul ul li a {
+	background: #ddd;
+}
+@media (min-width: 48em) {
+	#navigation ul ul li a {
+		border-bottom: 2px solid #267074;
+	}
+	#navigation ul ul {
+		background: #fff;
+		border-bottom:  2px solid #267074;
+		position: absolute;
+		top: 100%; /* Fallback. */
+		top: -webkit-calc(100% + 2px);
+		top: -moz-calc(100% + 2px);
+		top: calc(100% + 2px);
+		left: 0;
+		right: 0;
+	}
+}
+
+#navigation {
+	display: none;
+}
+@media (min-width: 48em) {
+	#navigation {
+		display: block !important;
+	}
+}
+
+/* HAMBURGER/TOGGLE BUTTON
+------------------------------------------------------------------------------ */
+
+.toggle {
+	color: #fff;
+	font-size: 20px;
+	background: transparent;
+	width: 50px;
+	height: 50px;
+	display: block;
+	cursor: pointer;
+	cursor: hand;
+	position: absolute;
+	left: 15px;
+	top: 15px;
+}
+.toggle::after {
+	content: "\f0c9";
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	 -ms-transform: translate(-50%, -50%);
+	  -o-transform: translate(-50%, -50%);
+	     transform: translate(-50%, -50%);
+}
+.toggle.opened::after {
+	content: "\f00d";
+}
+@media (min-width: 48em) {
+	.toggle {
+		display: none;
+	}
+}
+
+.utils {
+	font-size: 14px;
+	color: #fff;
+	position: absolute;
+	top: 13px;
+	right: 220px;
+	z-index: 999;
+	/* border: 1px solid red; */
+}
+.utils a,
+.utils a:visited,
+.utils a:visited:hover,
+.utils a:focus,
+.utils a:focus:hover,
+.utils a:hover,
+.utils a:active {
+	color: #fff;
+	text-decoration: none;
+}
+@media (min-width: 48em) {
+	.utils {
+		right: 170px;
+	}
+}
+@media (min-width: 80em) {
+	.utils {
+		right: 320px;
+	}
+}

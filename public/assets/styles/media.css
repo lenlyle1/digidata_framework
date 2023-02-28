@@ -1,0 +1,47 @@
+img {
+	border: 0;
+	max-width: 100%;
+	height: auto;
+	vertical-align: top;
+}
+a img {
+	border: 0;
+	outline: 0;
+}
+
+.imgc,
+.imgr,
+.imgl {
+	border: 2px solid #000;
+}
+
+.imgc {
+	margin: 0 auto;
+	display: block;
+}
+.imgr {
+	float: right;
+	margin-left: 10px;
+}
+.imgl {
+	float: left;
+	margin-right: 10px;
+}
+.imgr,
+.imgl {
+	margin-bottom: 10px;
+}
+@media (max-width: 47.999999999999em) {
+	.imgr,
+	.imgl {
+		float: none;
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+@media (min-width: 48em) {
+	.img-200 {
+		max-width: 200px;
+	}
+}

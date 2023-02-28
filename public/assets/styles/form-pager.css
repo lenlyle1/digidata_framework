@@ -1,0 +1,106 @@
+/* Progress can go anywhere as long as its parent is `position: relative`. */
+#progress {
+	height: 20px;
+	border: 1px solid #000;
+	border-radius: 3px;
+	background: #eee;
+	margin-top: 0px;
+	overflow: hidden;
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+#progress div {
+	background: #ffad08;
+	width: 0;
+	min-width: 3em !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 2;
+}
+#progress span {
+	font-size: 70%;
+	color: #000;
+	text-align: center;
+	letter-spacing: .025em;
+	width: 100%;
+	position: absolute;
+	z-index: 3;
+}
+@media (min-width: 48em) {
+	#progress {
+		position: relative;
+		z-index: 100;
+		/* You’ll probably want to cheange these to suit your needs: */
+
+	}
+}
+
+.js #form-pager .steps > .step { display: none; } /* If JS is turned off, make complete form accessible. */
+#form-pager .steps > .step { margin-bottom: 40px; }
+#form-pager .steps > :first-child { margin-top: 0; }
+#form-pager .steps > :last-child { margin-bottom: 0; }
+
+#form-pager .steps-nav::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+#form-pager .steps-nav .button {
+	width: 100%;
+	margin: 0 0 10px;
+}
+@media (min-width: 48em) {
+	#form-pager .steps-nav { margin: -10px 0 0 -10px; }
+	#form-pager .steps-nav > div {
+		margin: 10px 0 0 10px;
+		float: right;
+	}
+	#form-pager .steps-nav > div:last-child { float: left; }
+}
+
+#form-pager textarea {
+	width: 50%;
+	height: 10em;
+}
+@media (min-width: 48em) {
+	#form-pager select,
+	#form-pager textarea,
+	#form-pager input[type=text],
+	#form-pager input[type=email],
+	#form-pager input[type=password],
+	#form-pager input[type=tel] { width: 100%; }
+}
+
+#form-pager .text-center { text-align: center; }
+
+#form-pager .step-hide {
+	display: none !important;
+	visibility: hidden;
+}
+
+#form-pager {
+	margin: 10px 0;
+}
+
+/*
+input.form_slider{
+    width:90%;
+}
+*/
+
+/*
+.salt_custom {
+    width:80% !important;
+    left:40% !important;
+}
+.salt_custom > div {
+    left: 40%;
+    width: 25%;
+    position:relative;
+    padding:12px;
+}
+*/
